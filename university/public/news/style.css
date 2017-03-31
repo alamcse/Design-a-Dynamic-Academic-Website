@@ -1,0 +1,22 @@
+* { margin:0; padding:0; }
+
+#newsticker-demo { 
+width: 581px;
+height:441px;
+background: none repeat scroll 0% 0% #FFFFFF;
+padding: 5px 5px 31px;
+font-family: Verdana,Arial,sans-serif;
+font-size: 14px;
+margin: -5px auto;
+}
+
+#newsticker-demo a { text-decoration:none; }
+
+
+.newsticker-jcarousellite { width:583px;height:400px }
+.newsticker-jcarousellite ul li{ list-style:none; display:block; padding-bottom:10px;padding-top:10px;padding-left:10px; margin-bottom:1px;background:#D3DAED }
+/*.newsticker-jcarousellite .thumbnail { float:left; width:110px; }*/
+.newsticker-jcarousellite .info { float:left; width:500px; }
+.newsticker-jcarousellite .info span.cat { display: block; font-size:10px; color:#808080; }
+
+.clear { clear: both; }

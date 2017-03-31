@@ -1,0 +1,87 @@
+*{margin:0; padding:0}
+body {background:url(images/bg.png) repeat fixed;font-family:Arial;font-size:14px;line-height:22px;color#666;}
+/*.fix {overflow:hidden}*/
+.main{width:1050px; margin:0px auto; display:block;background:#FFFFFF}
+
+/*..........................................header..................................................... */
+.header {width:1050px;height:150px}
+.header img{width:1050px;height:150px}
+
+/*............................................header..................................................... */
+/*.dropdownmenu{width:1050px;height:40px;background:#3382FB;min-height:53px}*/
+
+.dropdownmenu { position:relative;font-family: arial, sans-serif;height:40px;min-height:40px;width:100%;font-size:14px;background:#3382FB; z-index:1000} 
+
+
+/* Menu CSS */
+
+/*.dropdownmenu {background:#3382FB;min-height:53px}*/
+.dropdownmenu ul{margin:0;padding:0;list-style:none}
+.dropdownmenu ul li{float:left;border-left:1px solid #0164FA;border-right:1px solid #9BC2FD;position:relative}
+.dropdownmenu ul li:first-child {border-left:0px solid} 
+.dropdownmenu ul li:last-child {border-right:0px solid} 
+.dropdownmenu ul li a{color:#fff;display:block;padding:9px;text-decoration:none}
+.dropdownmenu ul li a:hover{color:#95BEFD}
+
+/* Dropdown CSS */
+
+.dropdownmenu ul li ul {position:absolute;left:-999999px}
+.dropdownmenu ul li:hover ul {left:0px}
+.dropdownmenu ul li ul{background:#fff}
+.dropdownmenu ul li ul li {float:none;width:250px;border-bottom:1px solid #FFFFFF;border-right:0px solid;border-left:0px solid}
+.dropdownmenu ul li ul li:last-child {border-bottom:0px solid #37C594}
+.dropdownmenu ul li ul li a{background:#418BFB;color:#fff;padding:5px 15px;text-decoration:none}
+.dropdownmenu ul li ul li a:hover{color:#95BEFD}
+
+
+.breakingnews{width:1048px;height:32px;border:1px solid #000000;margin-top:5px;margin-bottom:5px;color:#000000;background:#FFFFFF} 
+.breakingnews h3{padding-bottom:5px;padding-top:5px}
+
+
+.achieveslidernotice{width:1050px;height:300px;margin-bottom:10px}
+
+.achievement{width:254px;height:300px;float:left;}
+.achievementheader{width:254px;height:32px;background-color:#3382FB;}
+.achievementheader header{color:#FFFFFF;padding:5px;}
+.achievementcontent{width:254px ;height:268px;padding-left:0px;}
+.achievementcontent ul li{ list-style:none; display:block; padding-bottom:10px;padding-top:7px;padding-left:5px;padding-right:5px; margin-bottom:1px;background:#D3DAED }
+.achievementcontent ul li a{text-decoration:none;padding-left:5px;padding-bottom:2px;padding-top:2px;}
+
+.slider1 {width:532px;height:300px;float:left;display:block;margin-left:5px;margin-right:5px;}
+
+.notice{width:254px;height:300px;float:right;}
+.noticeheader{width:254px;height:32px;background-color:#3382FB;}
+.noticeheader header{color:#FFFFFF;padding:5px;}
+.noticecontent{width:254px ;height:268px;padding-left:0px;}
+.noticecontent ul li{ list-style:none; display:block; padding-bottom:10px;padding-top:7px;padding-left:5px;padding-right:5px; margin-bottom:1px;background:#D3DAED }
+.noticecontent ul li a{text-decoration:none;padding-left:5px;padding-bottom:2px;padding-top:2px;}
+
+
+
+.message{width:1048px;height:200px;border:1px solid #000000;margin-bottom:5px;background:#FFFFFF}
+.message h1{height:30px;color:#DF352E;font-size:20px;font-style:bold}
+.message h5{padding-left:10px}
+.message p{padding:10px}
+
+.lnewsmapsocial{width:1050px;height:450px;margin-bottom:1px}
+
+.latestnews{float:left;width:587px;height:450px}
+.latestnews header{height:20px;background-color:#3382FB;color:#FFFFFF;padding:5px;}
+
+.mapsocial{float:right;width:452px;height:450px;}
+
+.map{width:452px;height:341px;margin-bottom:5px}
+.mapheader{weight:448;height:32px;background-color:#3382FB;}
+.mapheader header{color:#FFFFFF;padding:5px;}
+#map-canvas{width:450px;height:303px;border:1px solid #000000}
+
+.social{width:452px;height:106px;}
+.socialheader{width:452px;height:32px;background-color:#3382FB;}
+.socialheader header{color:#FFFFFF;padding:5px;}
+.sociallink{width:452;height:70px;padding:5px;}
+.in{margin-bottom:10px;margin-top:10px;}
+
+
+.foot{width:1050px;height:40px;}
+.foot footer{background-color:#3382FB;color:#FFFFFF;height:40px;padding:5px}
+.foot p{padding-bottom:5px;padding-top:5px}
